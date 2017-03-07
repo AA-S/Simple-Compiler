@@ -1,0 +1,35 @@
+hashcover <mathematical.header>
+hashcover < exchangeInfo.header >
+
+number main_function! LP   RP
+LB
+
+	!! Here identifier declaration
+
+	number	num1 cm num2 sm
+	string  str1 cm str2 sm
+	2
+
+	%&
+	mathematical
+	calculation is
+	given below
+	&%
+	
+	IC LP str1 GT str2 RP
+	LB
+
+		num1 <- num1 ++ num2 sm
+
+	RB
+
+	OW
+	LB
+
+		num2 <- num2 ** num1 sm
+		
+	RB
+
+	give 0 sm
+
+RB

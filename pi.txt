@@ -1,0 +1,20 @@
+number  num1 cm num2 sm
+a <- 4 sm
+b <- 5 sm
+a
+b
+IC LP b GT a RP   a++b sm
+
+IC LP a GT b RP   a++b sm   OW b--a sm
+
+IC LP a LT b RP 		IC LP a GT b RP a++b sm OW b--a sm 			sm OW b--a sm
+
+b md a
+p <- a -- b sm
+p <- b  pow 3 sm
+p
+
+sin ( 30 )
+cos ( 30 )
+tan ( 30 )
+log ( 30 )
